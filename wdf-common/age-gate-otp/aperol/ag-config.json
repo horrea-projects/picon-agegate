@@ -1,0 +1,81 @@
+{
+  "customization": {
+    "background-color": "transparent",
+    "text-color": "#fffff",
+    "font-size-desktop": "18px",
+    "font-size-tablet": "16px",
+    "font-size-mobile": "16px",
+    "main-title-color": "#fffff",
+
+    "main-title-font": "ltc-bodoni-175",
+    "font-family": "ltc-bodoni-175",
+    "font-weight": "",
+    "font-style": "italic",
+
+    "input-color": "#000000",
+    "input-bg-color": "#f8f8f8",
+    "input-border-color": "#fffff",
+    "input-border-color-focus": "#fffff",
+    "input-font-size": "21px",
+
+    "icon-color": "#fffff",
+
+    "submit-font-family": "ltc-bodoni-175",
+    "submit-font-weight": "100",
+    "submit-bg-color": "#c10f28",
+    "submit-text-color": "#ffffff",
+    "submit-disabled-bg-color": "#6D798A",
+    "submit-disabled-text-color": "#ffffff",
+    "submit-hover-bg-color": "#c10f28",
+    "submit-hover-text-color": "#ffffff",
+
+    "danger-color": "#a6192e",
+    "success-color": "#a6192e",
+
+    "logo-url": "https://www.aperol.com/app/uploads/2025/02/white-logo.webp",
+    "modal-bg-image-url": "https://www.aperol.com/app/uploads/2025/02/Age-Gate-3.0.web",
+    "modal-bg-image-position": "center center",
+    "modal-bg-image-size": "cover"
+  },
+  "default": {
+    "code": "int",
+    "type": "complete",
+    "formatDate": "dd/mm/yyyy",
+    "translations": {
+      "title": "Are you of legal drinking age?",
+      "errors": {
+        "invalidDate": "Invalid Date",
+        "invalidAge": "Invalid Age"
+      },
+      "submit": "Enter",
+      "remember": "Remember my choice",
+      "terms": "By entering this site, I accept <a href=\"https://shop.aperol.com/policies/privacy-policy\">Privacy Policy</a> and <a href=\"https://shop.aperol.com/policies/terms-of-sale\">Terms & Conditions</a>.",
+      "locationMessage": "Select your country of origin",
+      "selectLabel": "Select Your Country/Region",
+      "yesBtn": "Yes",
+      "noBtn": "No"
+    }
+  },
+  "countries": [
+    {
+      "country": "France | Français",
+      "code": "fr",
+      "type": "complete",
+      "formatDate": "dd/mm/yyyy",
+      "translations": {
+        "title": "Vous devez être majeur pour accéder à ce site",
+        "errors": {
+          "invalidDate": "Date invalide",
+          "invalidAge": "Âge invalide"
+        },
+        "submit": "Entrer",
+        "remember": "Souviens-toi de mon choix",
+        "terms": "En accédant à ce site, vous acceptez les termes et conditions. Campari France, membre de l’association Prévention et Modération, encourage une consommation responsable de ses produits. https://www.preventionetmoderation.org/ ",
+        "locationMessage": "Il semble que vous soyez aux France, sinon, sélectionnez votre pays d'origine",
+        "yesBtn": "oui",
+        "noBtn": "non"
+      },
+      "redirectPath": "/fr-fr"
+    }
+  ]
+}
