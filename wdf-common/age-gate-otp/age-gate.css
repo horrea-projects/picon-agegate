@@ -95,20 +95,15 @@
   fill: #fe5000 !important;
 }
 
+/* Image pour mobile (toutes les localisations) */
 #age-gate-otp .modalbg {
-  background-image: url(https://www.aperol.com/app/uploads/2025/02/Age-Gate-3.0.webp) !important;
+  background-image: url(https://cdn.shopify.com/s/files/1/0878/2698/9392/files/Aperol_Age_Gate_Mobile_Background.jpg?v=1771200964) !important;
 }
 
-/* Market-specific override: France */
-/* Image pour mobile */
-#age-gate-otp[data-market="fr"] .modalbg {
-  background-image: url(https://cdn.shopify.com/s/files/1/0728/5905/8518/files/Mobile_Aperol_Header.webp?v=1764839474) !important;
-}
-
-/* Image pour desktop */
+/* Image pour desktop (toutes les localisations) */
 @media (min-width: 901px) {
-  #age-gate-otp[data-market="fr"] .modalbg {
-    background-image: url(https://cdn.shopify.com/s/files/1/0728/5905/8518/files/Aperol_Age_Gate_Background.webp?v=1764839473) !important;
+  #age-gate-otp .modalbg {
+    background-image: url(https://cdn.shopify.com/s/files/1/0878/2698/9392/files/Aperol_Age_Gate_Background.jpg?v=1771200964) !important;
   }
 }
 /* FR market sticky banner */
