@@ -1,5 +1,5 @@
 #age-gate-otp {
-  font-family: "Afacad", sans-serif;
+  font-family: "Picon", sans-serif;
   position: fixed;
   top: 0;
   right: 0;
@@ -26,8 +26,8 @@
 }
 
 #age-gate-otp .ag-card .main_text {
-  color: #fffbe6 !important;
-  font-family: "Afacad", sans-serif !important;
+  color: #000000 !important;
+  font-family: "Picon", sans-serif !important;
   text-transform: uppercase !important;
   font-size: 32px !important;
   font-weight: 500 !important;
@@ -35,17 +35,17 @@
 }
 
 #age-gate-otp .ag-disclaimer {
-  color: #fffbe6 !important;
+  color: #000000 !important;
   font-size: 14px !important;
-  font-family: "Afacad", sans-serif !important;
+  font-family: "Picon", sans-serif !important;
   text-transform: initial !important;
   letter-spacing: normal !important;
   font-style: normal !important;
 }
 
 #age-gate-otp .remember_text {
-  color: #fffbe6 !important;
-  font-family: "Afacad", sans-serif !important;
+  color: #000000 !important;
+  font-family: "Picon", sans-serif !important;
   text-transform: initial !important;
   letter-spacing: normal !important;
   font-size: 14px !important;
@@ -56,10 +56,9 @@
 }
 
 #age-gate-otp .ag-select {
-  color: #fe5000 !important;
+  color: #FF280A !important;
   font-style: normal !important;
-
-  font-family: "Afacad", sans-serif !important;
+  font-family: "Picon", sans-serif !important;
   text-transform: initial !important;
   letter-spacing: normal !important;
   font-size: 16px !important;
@@ -67,8 +66,8 @@
 
 #age-gate-otp .ag-select_toggle {
   background-color: transparent !important;
-  border-bottom-color: #fffbe6 !important;
-  color: #fffbe6 !important;
+  border-bottom-color: #000000 !important;
+  color: #000000 !important;
   justify-content: flex-start !important;
 }
 
@@ -77,11 +76,11 @@
 }
 
 #age-gate-otp .ag-select_toggle .sn_sprite {
-  fill: #fffbe6 !important;
+  fill: #000000 !important;
 }
 
 #age-gate-otp .sn_form_custom_control > label .sn_sprite {
-  border-color: #fffbe6 !important;
+  border-color: #000000 !important;
   border-radius: 1px !important;
 }
 
@@ -91,8 +90,8 @@
 }
 
 #age-gate-otp .sn_form_custom_control > input:checked ~ label .sn_sprite {
-  background-color: #fffbe6 !important;
-  fill: #fe5000 !important;
+  background-color: #000000 !important;
+  fill: #FF280A !important;
 }
 
 /* Image pour mobile (toutes les localisations) */
@@ -114,15 +113,15 @@
   right: 0;
   bottom: 0;
   z-index: 9999;
-  background: #01033a;
+  background: #FFFFFF;
   box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.14);
 }
 .ag-fr-sticky-banner__inner {
   margin: 0 auto;
   background: transparent;
-  color: #ffffff;
+  color: #000000;
   font-weight: 400;
-  font-family: Jost, sans-serif;
+  font-family: "Picon", sans-serif;
   text-align: center;
   padding: 20px 16px;
   font-size: 16px;
@@ -154,15 +153,15 @@
   font-weight: 500 !important;
   height: 64px !important;
   text-transform: capitalize !important;
-  color: #ff5000 !important;
-  font-family: "Afacad", sans-serif !important;
+  color: #FF280A !important;
+  font-family: "Picon", sans-serif !important;
   letter-spacing: normal !important;
   font-size: 18px !important;
 }
 
 #age-gate-otp .ag-buttons .sn_btn.selected {
   background-color: #fff !important;
-  color: #fe5000 !important;
+  color: #FF280A !important;
 }
 
 #age-gate-otp .ag-buttons {
@@ -174,7 +173,7 @@
 }
 
 #age-gate-otp .submit_btn {
-  color: #fe5000 !important;
+  color: #FF280A !important;
   background-color: #fffbe6 !important;
   border-color: #fffbe6 !important;
   border-radius: 2.3em !important;
@@ -202,7 +201,7 @@
   font-size: 18px !important;
   font-weight: 400 !important;
   border-radius: 8px !important;
-  color: #ff5000 !important;
+  color: #FF280A !important;
   font-style: normal;
   height: 64px;
 }
@@ -213,20 +212,20 @@
 }
 
 #age-gate-otp .ag-inputs input::placeholder {
-  color: #ff7846 !important;
+  color: rgba(255, 40, 10, 0.7) !important;
 }
 
 #age-gate-otp .ag-country_name {
-  color: #fffbe6 !important;
+  color: #000000 !important;
 }
 
 #age-gate-otp .ag-select_menu_i {
-  color: #fe5000 !important;
+  color: #FF280A !important;
 }
 
 #age-gate-otp .submit_btn,
 #age-gate-otp ._text_danger {
-  font-family: "Afacad", sans-serif !important;
+  font-family: "Picon", sans-serif !important;
   font-style: normal !important;
 }
 
@@ -243,7 +242,7 @@
 .sn_form .form-group-1 .form-control-1.is-invalid,
 .sn_form .form-group-1 .custom-select.is-invalid {
   color: var(--tc-color-danger, #a6192e);
-  border-color: #fe5000 !important;
+  border-color: #FF280A !important;
   background-image: none;
 }
 
@@ -253,12 +252,12 @@
 .sn_form .form-group-1 .form-control.is-invalid ~ label,
 .sn_form .form-group-1 .form-control-1.is-invalid ~ label,
 .sn_form .form-group-1 .custom-select.is-invalid ~ label {
-  color: #fe5000 !important;
+  color: #FF280A !important;
 }
 
 #age-gate-otp .ag-inputs .form-group .form-control:focus,
 #age-gate-otp .ag-inputs .form-group-1 .form-control-1:focus {
-  border-color: #fe5000 !important;
+  border-color: #FF280A !important;
 }
 
 #age-gate-otp .ag-inputs .form-group-1 .form-control-1 {

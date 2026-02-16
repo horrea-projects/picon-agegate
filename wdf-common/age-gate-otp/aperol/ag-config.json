@@ -7,8 +7,8 @@
     "font-size-mobile": "16px",
     "main-title-color": "#fffff",
 
-    "main-title-font": "ltc-bodoni-175",
-    "font-family": "ltc-bodoni-175",
+    "main-title-font": "Picon, sans-serif",
+    "font-family": "Picon, sans-serif",
     "font-weight": "",
     "font-style": "italic",
 
@@ -20,7 +20,7 @@
 
     "icon-color": "#fffff",
 
-    "submit-font-family": "ltc-bodoni-175",
+    "submit-font-family": "Picon, sans-serif",
     "submit-font-weight": "100",
     "submit-bg-color": "#c10f28",
     "submit-text-color": "#ffffff",
@@ -32,7 +32,7 @@
     "danger-color": "#a6192e",
     "success-color": "#a6192e",
 
-    "logo-url": "https://www.aperol.com/app/uploads/2025/02/white-logo.webp",
+    "logo-url": "https://cdn.shopify.com/s/files/1/0878/2698/9392/files/Pion_White_Logo.png?v=1745851967",
     "modal-bg-image-url": "https://www.aperol.com/app/uploads/2025/02/Age-Gate-3.0.web",
     "modal-bg-image-position": "center center",
     "modal-bg-image-size": "cover"
