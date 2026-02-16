@@ -26,7 +26,7 @@
 }
 
 #age-gate-otp .ag-card .main_text {
-  color: #000000 !important;
+  color: #ffffff !important;
   font-family: "Picon", sans-serif !important;
   text-transform: uppercase !important;
   font-size: 32px !important;
@@ -35,7 +35,7 @@
 }
 
 #age-gate-otp .ag-disclaimer {
-  color: #000000 !important;
+  color: #ffffff !important;
   font-size: 14px !important;
   font-family: "Picon", sans-serif !important;
   text-transform: initial !important;
@@ -44,7 +44,7 @@
 }
 
 #age-gate-otp .remember_text {
-  color: #000000 !important;
+  color: #ffffff !important;
   font-family: "Picon", sans-serif !important;
   text-transform: initial !important;
   letter-spacing: normal !important;
@@ -66,8 +66,8 @@
 
 #age-gate-otp .ag-select_toggle {
   background-color: transparent !important;
-  border-bottom-color: #000000 !important;
-  color: #000000 !important;
+  border-bottom-color: #ffffff !important;
+  color: #ffffff !important;
   justify-content: flex-start !important;
 }
 
@@ -76,11 +76,11 @@
 }
 
 #age-gate-otp .ag-select_toggle .sn_sprite {
-  fill: #000000 !important;
+  fill: #ffffff !important;
 }
 
 #age-gate-otp .sn_form_custom_control > label .sn_sprite {
-  border-color: #000000 !important;
+  border-color: #ffffff !important;
   border-radius: 1px !important;
 }
 
@@ -90,7 +90,7 @@
 }
 
 #age-gate-otp .sn_form_custom_control > input:checked ~ label .sn_sprite {
-  background-color: #000000 !important;
+  background-color: #ffffff !important;
   fill: #FF280A !important;
 }
 
@@ -196,27 +196,54 @@
   width: 100% !important;
 }
 
-#age-gate-otp .ag-inputs input {
-  background-color: #fffbe6;
+/* layout_box ag-inputs - champs date (progressive) et âge (full) */
+#age-gate-otp .layout_box.ag-inputs input,
+#age-gate-otp .layout_box.ag-inputs .form-control,
+#age-gate-otp .layout_box.ag-inputs .form-control-1 {
+  background-color: #fffbe6 !important;
   font-size: 18px !important;
   font-weight: 400 !important;
   border-radius: 8px !important;
   color: #FF280A !important;
-  font-style: normal;
-  height: 64px;
-}
-
-#age-gate-otp .ag-inputs input.is-invalid {
-  border-bottom-color: #fffbe6 !important;
   border-color: #fffbe6 !important;
+  font-style: normal;
+  height: 64px !important;
 }
 
-#age-gate-otp .ag-inputs input::placeholder {
+#age-gate-otp .layout_box.ag-inputs input::placeholder,
+#age-gate-otp .layout_box.ag-inputs .form-control::placeholder,
+#age-gate-otp .layout_box.ag-inputs .form-control-1::placeholder {
   color: rgba(255, 40, 10, 0.7) !important;
 }
 
+#age-gate-otp .layout_box.ag-inputs input.is-invalid,
+#age-gate-otp .layout_box.ag-inputs .form-control.is-invalid,
+#age-gate-otp .layout_box.ag-inputs .form-control-1.is-invalid {
+  border-color: #FF280A !important;
+}
+
+#age-gate-otp .layout_box.ag-inputs .form-group .form-control:focus,
+#age-gate-otp .layout_box.ag-inputs .form-group-1 .form-control-1:focus {
+  border-color: #FF280A !important;
+}
+
+/* Fallback ag-inputs (même conteneur que layout_box.ag-inputs) */
+#age-gate-otp .ag-inputs input,
+#age-gate-otp .ag-inputs .form-control,
+#age-gate-otp .ag-inputs .form-control-1 {
+  background-color: #fffbe6 !important;
+  color: #FF280A !important;
+  border-color: #fffbe6 !important;
+}
+
+#age-gate-otp .ag-inputs input.is-invalid,
+#age-gate-otp .ag-inputs .form-control.is-invalid,
+#age-gate-otp .ag-inputs .form-control-1.is-invalid {
+  border-color: #FF280A !important;
+}
+
 #age-gate-otp .ag-country_name {
-  color: #000000 !important;
+  color: #ffffff !important;
 }
 
 #age-gate-otp .ag-select_menu_i {
