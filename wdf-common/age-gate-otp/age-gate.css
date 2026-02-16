@@ -56,7 +56,7 @@
 }
 
 #age-gate-otp .ag-select {
-  color: #FF280A !important;
+  color: #ff280a !important;
   font-style: normal !important;
   font-family: "Picon", sans-serif !important;
   text-transform: initial !important;
@@ -91,7 +91,7 @@
 
 #age-gate-otp .sn_form_custom_control > input:checked ~ label .sn_sprite {
   background-color: #ffffff !important;
-  fill: #FF280A !important;
+  fill: #ff280a !important;
 }
 
 /* Image pour mobile (toutes les localisations) */
@@ -113,7 +113,7 @@
   right: 0;
   bottom: 0;
   z-index: 9999;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.14);
 }
 .ag-fr-sticky-banner__inner {
@@ -153,7 +153,7 @@
   font-weight: 500 !important;
   height: 64px !important;
   text-transform: capitalize !important;
-  color: #FF280A !important;
+  color: #ff280a !important;
   font-family: "Picon", sans-serif !important;
   letter-spacing: normal !important;
   font-size: 18px !important;
@@ -161,7 +161,7 @@
 
 #age-gate-otp .ag-buttons .sn_btn.selected {
   background-color: #fff !important;
-  color: #FF280A !important;
+  color: #ff280a !important;
 }
 
 #age-gate-otp .ag-buttons {
@@ -173,9 +173,9 @@
 }
 
 #age-gate-otp .submit_btn {
-  color: #FF280A !important;
-  background-color: #fffbe6 !important;
-  border-color: #fffbe6 !important;
+  color: #ff280a !important;
+  background-color: #ffffff !important;
+  border-color: #ffffff !important;
   border-radius: 2.3em !important;
   font-weight: 700 !important;
 }
@@ -200,12 +200,12 @@
 #age-gate-otp .layout_box.ag-inputs input,
 #age-gate-otp .layout_box.ag-inputs .form-control,
 #age-gate-otp .layout_box.ag-inputs .form-control-1 {
-  background-color: #fffbe6 !important;
+  background-color: #ffffff !important;
   font-size: 18px !important;
   font-weight: 400 !important;
   border-radius: 8px !important;
-  color: #FF280A !important;
-  border-color: #fffbe6 !important;
+  color: #ff280a !important;
+  border-color: #ffffff !important;
   font-style: normal;
   height: 64px !important;
 }
@@ -219,27 +219,27 @@
 #age-gate-otp .layout_box.ag-inputs input.is-invalid,
 #age-gate-otp .layout_box.ag-inputs .form-control.is-invalid,
 #age-gate-otp .layout_box.ag-inputs .form-control-1.is-invalid {
-  border-color: #FF280A !important;
+  border-color: #ff280a !important;
 }
 
 #age-gate-otp .layout_box.ag-inputs .form-group .form-control:focus,
 #age-gate-otp .layout_box.ag-inputs .form-group-1 .form-control-1:focus {
-  border-color: #FF280A !important;
+  border-color: #ff280a !important;
 }
 
 /* Fallback ag-inputs (même conteneur que layout_box.ag-inputs) */
 #age-gate-otp .ag-inputs input,
 #age-gate-otp .ag-inputs .form-control,
 #age-gate-otp .ag-inputs .form-control-1 {
-  background-color: #fffbe6 !important;
-  color: #FF280A !important;
-  border-color: #fffbe6 !important;
+  background-color: #ffffff !important;
+  color: #ff280a !important;
+  border-color: #ffffff !important;
 }
 
 #age-gate-otp .ag-inputs input.is-invalid,
 #age-gate-otp .ag-inputs .form-control.is-invalid,
 #age-gate-otp .ag-inputs .form-control-1.is-invalid {
-  border-color: #FF280A !important;
+  border-color: #ff280a !important;
 }
 
 #age-gate-otp .ag-country_name {
@@ -247,7 +247,7 @@
 }
 
 #age-gate-otp .ag-select_menu_i {
-  color: #FF280A !important;
+  color: #ff280a !important;
 }
 
 #age-gate-otp .submit_btn,
@@ -269,7 +269,7 @@
 .sn_form .form-group-1 .form-control-1.is-invalid,
 .sn_form .form-group-1 .custom-select.is-invalid {
   color: var(--tc-color-danger, #a6192e);
-  border-color: #FF280A !important;
+  border-color: #ff280a !important;
   background-image: none;
 }
 
@@ -279,12 +279,12 @@
 .sn_form .form-group-1 .form-control.is-invalid ~ label,
 .sn_form .form-group-1 .form-control-1.is-invalid ~ label,
 .sn_form .form-group-1 .custom-select.is-invalid ~ label {
-  color: #FF280A !important;
+  color: #ff280a !important;
 }
 
 #age-gate-otp .ag-inputs .form-group .form-control:focus,
 #age-gate-otp .ag-inputs .form-group-1 .form-control-1:focus {
-  border-color: #FF280A !important;
+  border-color: #ff280a !important;
 }
 
 #age-gate-otp .ag-inputs .form-group-1 .form-control-1 {
