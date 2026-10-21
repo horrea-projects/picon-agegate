@@ -1,4 +1,5 @@
 {
+  "redirectDomain": "https://shop.picon.com",
   "customization": {
     "background-color": "transparent",
     "text-color": "#fffff",
@@ -75,7 +76,7 @@
         "yesBtn": "oui",
         "noBtn": "non"
       },
-      "redirectPath": "/fr-fr"
+      "redirectPath": ""
     }
   ]
 }

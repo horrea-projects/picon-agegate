@@ -616,6 +616,28 @@ ageGateOTP.prototype.checkAndDoRedirect = function () {
       return;
     }
 
+    // Picon: every redirect targets the .com domain (no /fr-fr market path).
+    // When "redirectDomain" is set in ag-config.json, send the user to
+    // redirectDomain + (redirectPath || "") + current path without market prefix.
+    var redirectDomain =
+      _this.configuration && _this.configuration.redirectDomain
+        ? String(_this.configuration.redirectDomain).replace(/\/+$/, "")
+        : null;
+    if (redirectDomain) {
+      var marketPath = (_this.redirectPath || "").replace(/\/+$/, "");
+      var cleanPath = currentPath.replace(/^\/[a-z]{2,3}-[a-z]{2}(?=\/|$)/i, "");
+      if (!cleanPath) cleanPath = "/";
+      var target = redirectDomain + marketPath + cleanPath;
+      var here = window.location.origin + currentPath;
+      if (here.replace(/\/+$/, "") === target.replace(/\/+$/, "")) {
+        console.log("Already on the target .com URL. No redirection.");
+        return;
+      }
+      console.log("Redirecting to .com: " + target);
+      window.location.replace(target + window.location.search + window.location.hash);
+      return;
+    }
+
     // Check if redirectPath is set
     if (_this.redirectPath != null) {
       // Check if the current URL already contains the redirectPath (e.g., fr-be, nl-be, etc.)
